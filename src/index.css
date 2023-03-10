@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(146, 197, 193) 0%,
+    rgba(120, 202, 157) 35%,
+    rgba(146, 197, 193) 100%
+  );
+}
+.all {
+  margin-top: 3rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ürün {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  margin: 1%;
+  max-width: 15rem;
+  height: 100%;
+  gap: 0.3rem;
+}
+.ürün button,
+.sepet button {
+  margin: 0 15px 15px 15px;
+  width: 100px;
+  height: 30px;
+}
+img {
+  width: 120px;
+  max-height: 120px;
+}
+.sepet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #fff;
+  margin: auto;
+  max-width: 800px;
+  height: auto;
+}
+.inSepet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid red;
+  margin: 1rem;
+}
+.bosalt {
+  position: absolute;
+  top: 400px;
+  right: 550px;
+}
+.detail {
+  position: absolute;
+  top: 400px;
+  left: 330px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
