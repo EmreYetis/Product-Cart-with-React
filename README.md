@@ -3,4 +3,4 @@
 Product Cart using ReactJS
 
 ![alt text](productcard1.JPG)
-![alt text](productCard2.jpg)
+![alt text](productCard2.JPG)
